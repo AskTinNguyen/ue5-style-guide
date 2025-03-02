@@ -38,6 +38,7 @@ The UE5 Style Guide is a comprehensive collection of best practices, patterns, a
 
 | Date | Update | Author |
 |------|--------|--------|
+| 2024-06-20 | Updated Global Best Practices with AI-Assisted Development section | Team |
 | 2024-05-21 | Added Performance Optimization Pattern to UMG Widget Pattern Library | Team |
 | 2024-05-21 | Completed UMG Widget Pattern Library | Team |
 | 2024-05-21 | Added Widget Interaction Pattern to UMG Widget Pattern Library | Team |
@@ -70,16 +71,18 @@ The team is currently focused on:
 6. Developing comprehensive beginner-friendly C++ guides
 7. Refining and consolidating optimization guidelines for clarity and reduced redundancy
 8. Creating comprehensive UMG widget patterns and guidelines for C++ implementation
+9. Optimizing the development pipeline for AI-assisted C++ development
 
 ## Next Steps
 
 1. Complete the Beginner's Guide to C++ in UE5
-2. Complete the UMG Widget Pattern Library
-3. Create Editor Utility Widgets for common tasks
-4. Develop automated testing tools for style guide compliance
-5. Create video tutorials for key systems
-6. Implement example projects demonstrating the style guide in action
-7. Add practical examples to optimization guidelines
+2. Create Editor Utility Widgets for common tasks
+3. Develop automated testing tools for style guide compliance
+4. Create video tutorials for key systems
+5. Implement example projects demonstrating the style guide in action
+6. Add practical examples to optimization guidelines
+7. Create a comprehensive guide for using Cursor AI with UE5 C++ development
+8. Develop templates for common AI-assisted development patterns
 
 ## Known Issues
 
@@ -90,7 +93,7 @@ The team is currently focused on:
 | Missing examples in some pattern libraries | Medium | Unassigned | Open |
 | Beginner's Guide needs all sections completed | High | Team | In Progress |
 | Need to update cross-references in optimization documents | Medium | Team | In Progress |
-| UMG Widget Pattern Library needs additional patterns | Medium | Team | In Progress |
+| Need comprehensive AI-assisted development guide | High | Team | In Progress |
 
 ## Optimization Guidelines Consolidation
 

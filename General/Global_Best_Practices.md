@@ -8,6 +8,7 @@ This document centralizes common best practices that apply across multiple syste
 - [Blueprint vs. C++ Guidelines](#blueprint-vs-c-guidelines)
 - [Asset Organization](#asset-organization)
 - [Testing Procedures](#testing-procedures)
+- [AI-Assisted Development](#ai-assisted-development)
 
 ## Performance Guidelines
 
@@ -93,6 +94,41 @@ This document centralizes common best practices that apply across multiple syste
 - Verify all assets meet technical specifications
 - Check for missing references or broken dependencies
 - Validate against platform-specific requirements
+
+## AI-Assisted Development
+
+### Cursor AI IDE Integration
+
+#### Code Generation Best Practices
+- **Header File Design**: Design headers to minimize rebuild time when changing implementation
+- **Interface Stability**: Create stable interfaces that can be extended without header changes
+- **Container-Based Properties**: Use TMap, TArray, and other containers to allow flexible implementation details
+- **Data-Driven Design**: Prefer data-driven approaches that can be modified without recompiling
+
+#### Minimizing Rebuilds
+- **Live Coding Rules**: Follow the [UE5 Live Coding Rules](General/LiveCoding/UE5_LiveCoding_Rules.md) to maximize live coding compatibility
+- **Implementation Location**: Keep logic in .cpp files, interfaces and declarations in .h files
+- **Module Organization**: Organize code into modules with stable interfaces and implementation separation
+- **Forward Declarations**: Use forward declarations instead of including full headers where possible
+- **PCH Management**: Properly manage precompiled headers to reduce build times
+
+#### Making C++ Accessible for Non-Technical Team Members
+- **Template Patterns**: Create reusable template patterns that can be copied and modified
+- **Commenting Standards**: Add clear, concise comments explaining intent, not just implementation
+- **Working Examples**: Provide working examples for each pattern in its own folder
+- **AI Prompting Guide**: Maintain an AI prompting guide with effective prompts for common tasks
+
+### AI-Assisted Workflow
+- **Session Structure**: Begin each Cursor AI coding session by referencing the MasterProjectTracker.md
+- **Incremental Changes**: Make small, targeted changes that can be validated quickly
+- **Documentation First**: Document intent and design before coding to guide AI assistance
+- **Code Review**: Use AI to review code for style guide compliance before submitting
+
+### Collaborative Development
+- **Prompt Sharing**: Create a repository of effective AI prompts for common development tasks
+- **Pair Programming**: Use AI as a pair programming partner, especially for exploring new patterns
+- **Knowledge Transfer**: Document AI-assisted solutions for future reference
+- **Educational Opportunities**: Use AI to explain complex code to non-technical team members
 
 ---
 
