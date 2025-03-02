@@ -20,6 +20,7 @@ The UE5 Style Guide is a comprehensive collection of best practices, patterns, a
 | [Memory Budget Guidelines](UE_Pattern_Libraries/General/MemoryBudgetGuidelines.md) | Specific memory targets by component | ✅ Complete |
 | [Beginner's Guide to C++](Beginners_Guide_CPP/AAA_Beginners_Guide_Index.md) | Step-by-step guides for C++ in UE5 | 🔄 In Progress |
 | [Optimization Guidelines](Optimization_Guidelines/AAA_Optimization_Index.md) | Comprehensive optimization best practices | ✅ Complete |
+| [UMG Widget Pattern Library](UE_Pattern_Libraries/UMG_Widget_Pattern_Library/AAA_UMG_Widget_Pattern_Library.md) | UMG widget creation and management in C++ | 🔄 In Progress |
 
 ## Pattern Libraries
 
@@ -31,11 +32,18 @@ The UE5 Style Guide is a comprehensive collection of best practices, patterns, a
 | [Inventory Pattern Library](UE_Pattern_Libraries/Inventory_Pattern_Library) | Inventory system patterns | ✅ Complete |
 | [Save/Load Pattern Library](UE_Pattern_Libraries/Save_Load_Pattern_Library) | Save/Load system patterns | ✅ Complete |
 | [UI Pattern Library](UE_Pattern_Libraries/UI_Pattern_Library) | UI system patterns | ✅ Complete |
+| [UMG Widget Pattern Library](UE_Pattern_Libraries/UMG_Widget_Pattern_Library) | UMG widget patterns in C++ | 🔄 In Progress |
 
 ## Recent Updates
 
 | Date | Update | Author |
 |------|--------|--------|
+| 2024-05-21 | Added Widget Interaction Pattern to UMG Widget Pattern Library | Team |
+| 2024-05-21 | Added Widget Animation in C++ Pattern to UMG Widget Pattern Library | Team |
+| 2024-05-21 | Added Responsive Design Pattern to UMG Widget Pattern Library | Team |
+| 2024-05-21 | Added Widget Factory System to UMG Widget Pattern Library | Team |
+| 2024-05-21 | Added Data Binding Patterns to UMG Widget Pattern Library | Team |
+| 2024-05-21 | Added Widget Base Classes to UMG Widget Pattern Library | Team |
 | 2024-05-20 | Consolidated Optimization Guidelines documents for better organization | Team |
 | 2024-05-15 | Completed Optimization Guidelines Section | Team |
 | 2024-03-01 | Added Optimization Guidelines Section | Team |
@@ -59,15 +67,17 @@ The team is currently focused on:
 5. Adding real-world integration notes
 6. Developing comprehensive beginner-friendly C++ guides
 7. Refining and consolidating optimization guidelines for clarity and reduced redundancy
+8. Creating comprehensive UMG widget patterns and guidelines for C++ implementation
 
 ## Next Steps
 
 1. Complete the Beginner's Guide to C++ in UE5
-2. Create Editor Utility Widgets for common tasks
-3. Develop automated testing tools for style guide compliance
-4. Create video tutorials for key systems
-5. Implement example projects demonstrating the style guide in action
-6. Add practical examples to optimization guidelines
+2. Complete the UMG Widget Pattern Library
+3. Create Editor Utility Widgets for common tasks
+4. Develop automated testing tools for style guide compliance
+5. Create video tutorials for key systems
+6. Implement example projects demonstrating the style guide in action
+7. Add practical examples to optimization guidelines
 
 ## Known Issues
 
@@ -78,6 +88,7 @@ The team is currently focused on:
 | Missing examples in some pattern libraries | Medium | Unassigned | Open |
 | Beginner's Guide needs all sections completed | High | Team | In Progress |
 | Need to update cross-references in optimization documents | Medium | Team | In Progress |
+| UMG Widget Pattern Library needs additional patterns | Medium | Team | In Progress |
 
 ## Optimization Guidelines Consolidation
 
@@ -98,6 +109,18 @@ To improve organization and reduce redundancy, the following documents have been
    - `VFX_And_Particle.md`
    - `Post_Process_And_VFX.md`
    → Consolidated into `Visual_Effects_Optimization.md`
+
+## UMG Widget Pattern Library Progress
+
+The UMG Widget Pattern Library is currently in progress with the following components:
+
+1. Widget Base Classes - ✅ Complete
+2. Data Binding Patterns - ✅ Complete
+3. Widget Factory System - ✅ Complete
+4. Responsive Design - ✅ Complete
+5. Widget Animation in C++ - ✅ Complete
+6. Widget Interaction - ✅ Complete
+7. Performance Optimization - 🔄 Planned
 
 ## How to Contribute
 
