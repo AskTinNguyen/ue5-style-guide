@@ -1,0 +1,2 @@
+Implementation Migration Prompt
+Help me migrate implementation details from this header file to its corresponding .cpp file to reduce rebuild times. The header should maintain the same public interface but with minimal implementation details.

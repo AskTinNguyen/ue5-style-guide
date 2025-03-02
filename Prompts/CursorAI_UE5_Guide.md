@@ -111,51 +111,10 @@ Always check what has already been installed in package.json before triggering a
 ### Code Generation
 
 #### Template-Based Generation
-Provide Cursor AI with templates for common patterns:
-
-```cpp
-// Template for a new UE5 Actor class
-UCLASS()
-class MYGAME_API ATemplateActor : public AActor
-{
-    GENERATED_BODY()
-    
-public:
-    // Constructor
-    ATemplateActor();
-    
-protected:
-    // Called when the game starts or when spawned
-    virtual void BeginPlay() override;
-    
-public:
-    // Called every frame
-    virtual void Tick(float DeltaTime) override;
-    
-    // Example property
-    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Template")
-    float ExampleProperty;
-    
-    // Example function
-    UFUNCTION(BlueprintCallable, Category = "Template")
-    void ExampleFunction();
-};
-```
+Provide Cursor AI with templates for common patterns
 
 #### Style Guide Enforcement
-Remind Cursor AI to follow the project's style guide:
-```
-Please follow our UE5 C++ Style Guide when generating code, 
-particularly regarding naming conventions, code organization, 
-and UE5-specific practices.
-```
-
-#### Documentation Generation
-Ask Cursor AI to document generated code:
-```
-Please provide comprehensive documentation for this class, 
-including purpose, usage examples, and any important considerations.
-```
+Remind Cursor AI to follow the project's style guide
 
 ### Making C++ Accessible
 
@@ -166,13 +125,6 @@ including purpose, usage examples, and any important considerations.
 4. Review generated code with explanations
 5. Implement and test incrementally
 
-#### Explanation Requests
-Encourage non-technical users to ask for explanations:
-```
-Can you explain how this code works in simple terms?
-What does each part of this class do?
-How would I modify this to achieve [different behavior]?
-```
 
 ## Effective Prompting Strategies
 
@@ -209,12 +161,6 @@ Please provide suggestions for improvements that maintain our coding standards.
 ## Common Use Cases
 
 ### Implementing Game Features
-Follow this template for implementing new game features:
-1. Define the feature and requirements
-2. Ask Cursor AI to suggest an architecture that minimizes rebuilds
-3. Start with interfaces and stable headers
-4. Implement functionality in .cpp files
-5. Test frequently with hot reloading
 
 Example prompt:
 ```
